@@ -17,3 +17,14 @@ export const API_OPTIONS =  {
     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4MzNhMmRmMTU0YWRkNzIwYWQxNjk0MjQyYzc2MDIyMCIsIm5iZiI6MTc1MTYxMzI3My45ODIsInN1YiI6IjY4Njc3ZjU5YmViZGE1NGFkZmVlYjNkOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.DgKzqLdpgIlcyQd4qMeyrmI9UDhgn4X_rQRHhPYYJzQ'
   },
 };
+
+export const IMG_CND_URL = "https://image.tmdb.org/t/p/w500";
+
+export const SUPPORTED_LANGUAGES = [
+   {identifier: "english", name: "English"},
+   {identifier: "tamil", name: "Tamil"},
+   {identifier: "telugu", name: "Telugu"},
+   {identifier: "kannada", name: "Kannada"},
+   {identifier: "malayalam", name: "Malayalam"},
+   {identifier: "hindi", name: "Hindi"},
+];
